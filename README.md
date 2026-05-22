@@ -30,3 +30,10 @@ sequenceDiagram
         RouterAgent->>GraphMemory: Write new state/findings
     end
     RouterAgent->>User: Deliver final objective
+```
+
+## Architecture Decisions (ADRs)
+
+We document our architectural decisions through formal records:
+* [ADR Template](file:///Users/sanketmuchhala/Documents/GitHub/agentic-system-patterns/docs/adr/template.md)
+* [ADR-001: Decoupling LLM Reasoning from Tool Execution and State Management](file:///Users/sanketmuchhala/Documents/GitHub/agentic-system-patterns/docs/adr/0001-decoupling-llm-reasoning-from-tool-execution-and-state-management.md)
